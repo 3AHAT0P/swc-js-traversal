@@ -1,7 +1,4 @@
 import { main } from './src/main';
-
-const basePath = '/home/ikos/projects/butler/src';
-const entryFilePath = 'index.ts';
-const outputFilePath = './output.json';
+import { basePath, entryFilePath, outputFilePath } from './config';
 
 main(basePath, entryFilePath, outputFilePath);
